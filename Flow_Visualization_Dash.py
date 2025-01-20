@@ -19,6 +19,7 @@ def load_data(data_path = "flow_value_viz_test/flow_value_viz_test.shp"):
 
 external_stylesheets = [dbc.themes.CERULEAN]
 app = Dash(__name__, external_stylesheets=external_stylesheets)
+server = app.server
 
 # App layout
 app.layout = dbc.Container([
