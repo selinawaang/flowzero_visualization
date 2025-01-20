@@ -1,0 +1,8 @@
+dash
+plotly
+pandas
+dash_bootstrap_components
+geopandas
+os
+sys
+shutil
