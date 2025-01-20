@@ -6,8 +6,6 @@ import pandas as pd
 import dash_bootstrap_components as dbc
 import geopandas as gpd
 import os
-import sys
-import shutil
 
 # Set Mapbox token
 MAPBOX_TOKEN = "pk.eyJ1Ijoic2VsaW5hdzcyMSIsImEiOiJjbTY1ZjQ2OTkxdnp4MmxwcmN6dGNmM3ZmIn0.cEksWS0e63rPilg_CDctaw"
