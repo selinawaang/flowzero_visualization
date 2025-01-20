@@ -13,7 +13,7 @@ import shutil
 MAPBOX_TOKEN = "pk.eyJ1Ijoic2VsaW5hdzcyMSIsImEiOiJjbTY1ZjQ2OTkxdnp4MmxwcmN6dGNmM3ZmIn0.cEksWS0e63rPilg_CDctaw"
 px.set_mapbox_access_token(MAPBOX_TOKEN)
 
-def load_data(data_path = "../data/flow_value_viz_test/flow_value_viz_test.shp"):
+def load_data(data_path = "flow_value_viz_test/flow_value_viz_test.shp"):
     gdf = gpd.read_file(data_path)
     return gdf
 
