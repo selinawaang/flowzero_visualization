@@ -3,3 +3,4 @@ plotly
 pandas
 dash_bootstrap_components
 geopandas
+gunicorn
